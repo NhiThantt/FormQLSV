@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: unset !important;
+}
+
+/* utils css
+* - những css đã có sẵn chúng ta chỉ việc tái sử dụng lại.
+*/
+
+.background-black {
+  background-color: black;
+}
+
+.display-flex {
+  display: flex;
+}
+
+h1 {
+  color: white;
+  /* background-color: black; */
+  /* 100 */
+}
+
+h2 {
+  color: blue;
+  /* background-color: black; */
+}
+
+h3 {
+  color: green;
+  /* background-color: black; */
+}
